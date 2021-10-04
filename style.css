@@ -2,4 +2,48 @@
   background-color: #E5E5E5;
   --primary-blue-color: #2F3152;
   --secondary-green-color: #62D76B;
+  --header-font-color: #3E416D;
+  --paragraph-font-color: #9798A9;
+  --link-font-color: #757686;
+}
+
+h1, h2 {
+  font-family: 'Rubik';
+}
+
+a, p {
+  font-family: 'Open Sans';
+}
+
+/* code below */
+
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.header a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:first-child {
+  margin-right: 24px;
+  color: var(--link-font-color);
+}
+
+.btn-ghost {
+  border: 2px solid var(--secondary-green-color);
+  color: var(--secondary-green-color);
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-weight: bold;
 }
