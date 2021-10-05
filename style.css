@@ -1,5 +1,5 @@
 :root {
-  background-color: #E5E5E5;
+  background-color: #ffffff;
   --primary-blue-color: #2F3152;
   --secondary-green-color: #62D76B;
   --header-font-color: #3E416D;
@@ -7,7 +7,7 @@
   --link-font-color: #757686;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Rubik', sans-serif;
   color: var(--primary-blue-color);
 }
@@ -65,4 +65,46 @@ nav a:first-child {
 
 .banner div:first-child {
   width: 30%;
+}
+
+/* card */
+
+.card {
+  /* border: 1px solid; */
+  width: 380px;
+  height: 500px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .card-description {
+  display: flex;
+  align-items: flex-start;
+  /* margin-top: 16px; */
+  padding: 16px;
+}
+
+.card .card-description h3 {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.card .card-description p {
+  font-weight: light;
+  color: var(--paragraph-font-color);
+}
+
+.card .card-description img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
 }
